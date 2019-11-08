@@ -1,0 +1,1063 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+*{margin: 0px;}
+
+$blue: #2F1946;
+$purple: #45124C;
+$white: #FFFFFF;
+$pink: #FE4A5D;
+$purple2:#67326E;
+$blue2: #00CFAE;
+$grey: #CACACA;
+$grey2: #CDCDCD;
+$white2: #FAFAFA;
+$purple3: #81398B;
+
+.wrapper{
+	max-width: 1270px;
+	margin:auto;
+	position: relative;
+	height: auto;
+}
+
+.header{
+	width: 1270px;
+	height: 810px;
+	background-color: none;
+}
+
+#people img {
+	max-width: 100%;
+	height: auto;
+	background-size: auto;
+	position: absolute;
+}
+
+#logo img {
+	height: 190px;
+	width: auto;
+	background-size: auto;
+	position: absolute;
+	top: 110px;
+	left: 50%;
+	margin-left: -150px;
+	z-index: 1;
+}
+
+h3 {
+	font-family: 'Dosis', sans-serif;
+	background-color: none;
+	height: 100px;
+	width: 800px;
+	position: absolute;
+	top: 357px;
+	text-align: center;
+	left: 50%;
+	margin-left:-400px;
+	text-align: center;
+	color: $blue;
+	font-size: 50px;
+}
+
+#menu {
+	font-family: 'Dosis', sans-serif;
+	background-color: none;
+	height: 30px;
+	width: 65px;
+	position: absolute;
+	top: 15px;
+	right: 3%;
+	color: $blue;
+	font-size: 15px;
+	img {
+	position: absolute;
+	top: 1px;
+	height: 18px;
+	right: 1px;}
+	a { 
+    text-decoration: none;
+	} 
+	a {
+	color: $blue; /* Цвет ссылок */
+	}
+	a:hover {color: #E31A24;}
+	a:active {color: $purple2;}
+}
+
+#StickySocial {
+	position: fixed;
+	z-index: 99;
+	background-color: $purple;
+	height: 130px;
+	width: 35px;
+	top: 292px;
+	margin-left:0px;
+	border-radius: 0px 3px 3px 0px;
+	img {
+	float: left;
+	width: 18px;
+	height: auto;
+	margin-left: 9px;
+	margin-top: 11px;
+	top: 1px;
+	height: 18px;
+	}
+	img:hover {
+	opacity: 0.5;
+	}
+}
+
+#bg_get_started {
+	background-color: none;
+	height: 60px;
+	width: 150px;
+	position: absolute;
+	top: 470px;
+	left: 50%;
+	margin-left:-75px;
+	img {
+		width: 140px;
+		height: auto;
+	}
+}
+
+#textGS {
+	position: absolute;
+	background-color: none;
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+	height: 60px;
+	width: 150px;
+	left: 50%;
+	margin-left:-75px;
+	top: 485px;
+	color: $white;
+	font-size: 14px;
+	img {
+		height: 17px;
+	}
+	a { 
+    text-decoration: none;
+	} 
+	a {
+	color: $white; /* Цвет ссылок */
+	}
+	a:hover {font-size: 18px;}
+	a:active {color: $purple2;}
+}
+
+#OneWorld {
+	position: absolute;
+	width: 175px;
+	left: 50%;
+	margin-left: -285px;
+	background-color: none;
+	margin-top: 567px;
+	img {
+		width: 175px;
+		height: auto;
+	}
+}
+
+#TwoHearts {
+	position: absolute;
+	width: 175px;
+	left: 50%;
+	margin-left: -89px;
+	background-color: none;
+	margin-top: 567px;
+	img {
+		width: 175px;
+		height: auto;
+	}
+}
+
+#OneSite {
+	position: absolute;
+	width: 175px;
+	left: 50%;
+	margin-left: 107px;
+	background-color: none;
+	margin-top: 567px;
+	img {
+		width: 175px;
+		height: auto;
+	}
+}
+
+h4 {
+	position: absolute;
+	width: 100%;
+	top: 184px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 22px;
+	color: $white;
+	text-align: center;
+	a { 
+    text-decoration: none;
+	} 
+	a {
+	color: $white; /* Цвет ссылок */
+	}
+	a:hover {font-size: 30px;}
+	a:active {color: $purple2;}
+}
+
+.article {
+	position: absolute;
+	width: 100%;
+	height: 850px;
+	background-color: none;
+	margin-top: 810px;
+}
+
+#welcome {
+	font-family: 'Dosis', sans-serif;
+	background-color: none;
+	height: 60px;
+	width: 100%;
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	color: $blue;
+	font-size: 40px;
+	img {
+	height: 42px;
+	padding-right: 6px;
+	padding-top: 3px;
+	}
+}
+
+#quote {
+	font-family: 'Dosis', sans-serif;
+	background-color: none;
+	height: 58px;
+	width: 100%;
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	color: $blue;
+	font-size: 15px;
+	text-align: center;
+}
+
+#JL {
+	font-family: 'Dosis', sans-serif;
+	background-color: none;
+	height: 30px;
+	width: 140px;
+	position: absolute;
+	margin-top: 1px;
+	color: $pink;
+	font-size: 23px;
+	left: 50%;
+	margin-left: 158px;
+}
+
+#fotos_form {
+	margin-top: 70px;
+	width: 1270px;
+	height: 380px;
+	background-color: none;
+}
+
+#photos1-4 {
+	width: 475px;
+	height: 380px;
+	position: absolute;
+	left: 50%;
+	margin-left: -635px;
+	background-color: none;
+}
+
+#photo1 img {
+	width: 185px;
+	height: auto;
+	position: absolute;
+	top: 55px;
+}
+
+#photo2 img {
+	width: 240px;
+	height: auto;
+	position: absolute;
+	top: 10px;
+	left: 205px;
+}
+
+#photo3 img {
+	width: 185px;
+	height: auto;
+	position: absolute;
+	top: 222px;
+}
+
+#photo4 img {
+	width: 240px;
+	height: auto;
+	position: absolute;
+	top: 160px;
+	left: 205px;
+}
+
+#form {
+	width: 320px;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -160px;
+	z-index: 1;
+	img {
+		width: 320px;
+		height: auto;
+	}
+}
+
+#bg_white {
+	top: 7px;
+	width: 306px;
+	height: 365px;
+	position: absolute;
+	left: 50%;
+	margin-left: -153px;
+	background-color: white;
+	z-index: 2;
+}
+
+#ITS {
+	top: 40px;
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	background-color: none;
+	z-index: 2;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
+	color: $blue;
+}
+
+#FB {
+	top: 95px;
+	width: 220px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	margin-left: -110px;
+	background-color: #2F53A3;
+	z-index: 2;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 12px;
+	color: $white;
+	border-radius: 4px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	a { 
+    text-decoration: none;
+	} 
+	a {
+	color: $white; /* Цвет ссылок */
+	}
+	a:hover {font-size: 16px;}
+}
+
+#LineOR {
+	top: 137px;
+	width: 220px;
+	height: 20px;
+	position: absolute;
+	left: 50%;
+	margin-left: -110px;
+	background-color: none;
+	z-index: 2;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 12px;
+	color: #9A9A9A;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+
+#OR {
+	top: -10px;
+	width: 34px;
+	height: 20px;
+	position: absolute;
+	left: 50%;
+	margin-left: -17px;
+	background-color: white;
+	z-index: 3;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 10px;
+	color: #9A9A9A;
+}
+
+#data {
+	top: 150px;
+	width: 220px;
+	height: 190px;
+	position: absolute;
+	left: 50%;
+	margin-left: -110px;
+	background-color: none;
+	z-index: 2;
+	font-family: 'Dosis', sans-serif;
+	font-size: 10px;
+	color: #9A9A9A;
+	letter-spacing: 1px;
+}
+
+#email {
+	position: absolute;
+	left: 50%;
+	margin-left: -110px;
+	top: 0px;
+	border:1px solid grey;
+	border-radius: 4px;
+	width: 208px;
+	height: 25px;
+	font-size: 13px;
+	font-family: 'Dosis', sans-serif;
+	color: #642F6B;
+	padding-left: 10px;
+}
+
+#Username {
+	position: absolute;
+	left: 50%;
+	margin-left: -110px;
+	top: 37px;
+	border:1px solid grey;
+	border-radius: 4px;
+	width: 208px;
+	height: 25px;
+	font-size: 13px;
+	font-family: 'Dosis', sans-serif;
+	color: $purple3;
+	padding-left: 10px;
+}
+
+#Password {
+	position: absolute;
+	left: 50%;
+	margin-left: -110px;
+	top: 77px;
+	border:1px solid grey;
+	border-radius: 4px;
+	width: 208px;
+	height: 25px;
+	font-size: 13px;
+	font-family: 'Dosis', sans-serif;
+	color: $purple3;
+	padding-left: 10px;
+}
+
+#Confirm_Password {
+	position: absolute;
+	left: 50%;
+	margin-left: -110px;
+	top: 117px;
+	border:1px solid grey;
+	border-radius: 4px;
+	width: 208px;
+	height: 25px;
+	font-size: 13px;
+	font-family: 'Dosis', sans-serif;
+	color: $purple3;
+	padding-left: 10px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: $purple3;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: $purple3;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: $purple3;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: $purple3;
+}
+
+#GO {
+	top: 157px;
+	width: 220px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	margin-left: -110px;
+	background-color: #81398B;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 12px;
+	color: $white;
+	border-radius: 4px;
+	border: none;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+
+#GO:hover {opacity: 0.5;}
+#GO:active {color: $purple2;}
+
+#photos5-8 {
+	background-color: none;
+	width: 475px;
+	height: 380px;
+	position: absolute;
+	left: 50%;
+	margin-left: 160px;
+}
+
+#photo5 img {
+	width: 210px;
+	height: auto;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+#photo6 img {
+	width: 215px;
+	height: auto;
+	position: absolute;
+	left: 260px;
+}
+
+#photo7 img {
+	width: 210px;
+	height: auto;
+	position: absolute;
+	top: 229px;
+	left: 30px;
+}
+
+#photo8 img {
+	width: 215px;
+	height: auto;
+	position: absolute;
+	top: 155px;
+	left: 260px;
+}
+
+.aside {
+	position: absolute;
+	width: 100%;
+	height: 517px;
+	background-color: none;
+	margin-top: 1580px;
+}
+
+#bg_xo {
+	position: absolute;
+	left: 50%;
+	margin-left: -635px;
+	width: 1270px;
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+#Flower {
+	position: absolute;
+	left: 50%;
+	margin-left: -635px;
+	img {
+		width: 88px;
+		margin-top: 107px;
+	}
+	img:hover {
+	opacity: 0.3;/* прозрачность для других браузеров */
+	}
+}
+
+#Heart {
+	position: absolute;
+	left: 50%;
+	margin-left: -545px;
+	img {
+		width: 90px;
+		margin-top: 273px;
+	}
+	img:hover {
+	opacity: 0.3;
+	}
+}
+
+#SendFlowers {
+	position: absolute;
+	left: 50%;
+	margin-left: -405px;
+	z-index: 2;
+	img {
+		width: 190px;
+		margin-top: 43px;
+	}
+	img:hover {
+	opacity: 0.3;
+	}
+}
+
+#Genders {
+	position: absolute;
+	left: 50%;
+	margin-left: -330px;
+	img {
+		width: 150px;
+		margin-top: 335px;
+	}
+	img:hover {
+	opacity: 0.3;
+	}
+}
+
+#Languages {
+	position: absolute;
+	left: 50%;
+	margin-left: 211px;
+	z-index: 2;
+	img {
+		width: 144px;
+		margin-top: 25px;
+	}
+	img:hover {
+	opacity: 0.3;
+	}
+}
+
+#Gift {
+	position: absolute;
+	left: 50%;
+	margin-left: 210px;
+	img {
+		width: 90px;
+		margin-top: 315px;
+	}
+	img:hover {
+	opacity: 0.3;
+	}
+}
+
+#ChatTranslation {
+	position: absolute;
+	left: 50%;
+	margin-left: 395px;
+	img {
+		width: 175px;
+		margin-top: 235px;
+	}
+	img:hover {
+	opacity: 0.3;
+	}
+}
+
+#Chat {
+	position: absolute;
+	left: 50%;
+	margin-left: 560px;
+	img {
+		width: 75px;
+		margin-top: 51px;
+	}
+	img:hover {
+	opacity: 0.3;
+	}
+}
+
+#JoinNow {
+	width: 330px;
+	height: 330px;
+	background-color: none;
+	position: absolute;
+	left: 50%;
+	margin-left: -160px;
+	margin-top: 95px;
+	img {
+		width: 100%;
+	}
+}	
+
+h5 {
+	position: absolute;
+	width: 100%;
+	top: 105px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 42px;
+	text-align: center;
+	line-height: 0.9;
+	z-index: 2;
+	span {
+		font-size: 35px;
+	}
+	a { 
+    text-decoration: none;
+	} 
+	a {
+	color: $purple2; /* Цвет ссылок */
+	}
+	a:hover {color: #FF6C00;}
+	a:active {color: $purple2;}
+}
+
+#Button {
+	position: absolute;
+	width: 110px;
+	left: 110px;
+	top: 195px;
+	img:hover {
+	opacity: 0.3;
+	}
+}
+
+h6 {
+	position: absolute;
+	width: 100%;
+	top: 8px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 13px;
+	text-align: center;
+	z-index: 2;
+	a { 
+    text-decoration: none;
+	} 
+	a {
+	color: $white; /* Цвет ссылок */
+	}
+	a:hover {color: $purple2;}
+}
+
+.footer {
+	position: absolute;
+	width: 100%;
+	height: 230px;
+	background-color: none;
+	margin-top: 2097px;
+}
+
+#Email {
+	position: absolute;
+	width: 451px;
+	height: 50px;
+	left: 50%;
+	margin-left: -225px;
+	background-color: none;
+	margin-top: 20px;
+	color: none;
+}
+
+#Sing {
+	width: 150px;
+	height: 20px;
+	margin-top: 4px;
+	background-color: none;
+	font-size: 13px;
+	font-family: 'Dosis', sans-serif;
+	color: $blue2;
+	float: left;
+}
+
+#Address {
+	width: 180px;
+	height: 24px;
+	background-color: none;
+	font-size: 12px;
+	color: none;
+	float: left;
+	border: 1px solid $grey2;
+	border-radius: 3px 0px 0px 3px;
+	line-height: 24px;
+	padding-left: 10px;
+	font-family: 'Lato', sans-serif;
+}
+
+#Subscribe {
+	width: 108px;
+	height: 28px;
+	background-color: $blue2;
+	color: $white;
+	float: left;
+	border-radius: 0px 3px 3px 0px;
+	font-size: 12px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	line-height: 22px;
+}
+
+#Subscribe:active {color: $purple2;}
+
+#f_menu {
+	font-family: 'Dosis', sans-serif;
+	background-color: $white2;
+	height: 58px;
+	width: 1270px;
+	margin-top: 50px;
+	position: absolute;
+	left: 50%;
+	margin-left: -635px;
+	text-align: center; 
+	font-size: 10px;
+	line-height: 55px;
+	a:hover {color: $blue2;}
+	a:active {color: $purple2;} /* Цвет активной ссылки */ 
+	a {
+	color: $blue; /* Цвет ссылок */
+	}
+	a { 
+    text-decoration: none;
+	} 
+}
+
+#flags {
+	background-color: none;
+	height: 20px;
+	width: 720px;
+	position: absolute;
+	left: 50%;
+	margin-left: -360px;
+	top: 120px;
+	img:hover {
+	opacity: 0.6;
+	}
+}
+
+#line {
+	width: 720px;
+	height: 10px;
+	background-color: none;
+	top: 155px;
+	position: absolute;
+	left: 50%;
+	margin-left: -360px;
+}
+
+#p {
+	height: 40px;
+	width: 800px;
+	position: absolute;
+	left: 50%;
+	margin-left: -400px;
+	text-align: center;
+	background-color: none;
+	margin-top: 170px;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	color: #blue;
+}
+
+
+
+/*MEDIA*/
+
+@media (min-width: 319px) and (max-width: 375px) 
+/*правила для iPhone X и с меньшими экранами */ {
+
+	.header{
+		width: 100%;
+		height: 410px;
+	}
+
+	#logo img {
+		height: auto;
+		width: 120px;
+		top: 33px;
+		margin-left: -60px;
+	}
+
+	h3 {
+		width: 100%;
+		margin-left: -190px;
+		font-size: 20px;
+		top: 120px;
+	}
+
+	#bg_get_started {
+		top: 150px;
+	}
+
+	#textGS {
+		top: 165px;
+	}
+
+	#StickySocial {
+		top: 102px;
+	}
+
+	#OneWorld {
+		width: 120px;
+		margin-top: 245px;
+		margin-left: -184px;
+		img {
+			width: 120px;
+			}
+	}
+
+	#TwoHearts {
+		width: 120px;
+		margin-top: 245px;
+		margin-left: -60px;
+	img {
+		width: 120px;
+		}
+	}
+
+	#OneSite {
+		width: 120px;
+		margin-top: 245px;
+		margin-left: 64px;
+	img {
+		width: 120px;
+		}
+	}
+
+	h4 {
+	width: 100px;
+	margin-left: 5px;
+	top: 110px;
+	font-size: 20px;
+	}
+
+	#menu {
+		top: 8px;
+	}
+
+	.article {
+		margin-top: 350px;
+		width: 100%;
+		height: 670px;
+	}
+
+	#photos1-4 {display: none;}
+
+	#photos5-8 {display: none;}
+
+	#quote {
+		font-size: 13px;
+	}
+
+	#JL {
+		top: 230px;
+		margin-left: 0px;
+		font-size: 20px;
+	}
+
+	#fotos_form {
+		width: 100%;
+	}
+
+	#form {
+		margin-left: -160px;
+	}
+
+	.aside {
+		margin-top: 1030px;
+		width: 100%;
+		height: 350px;
+	}
+
+	#bg_xo {
+		width: 100%;
+		max-width: 375px;
+	}
+
+	#bg_xo img {
+		width: auto;
+		height: 334px;
+	}
+
+	#Flower {display: none;}
+	#Heart {display: none;}
+	#SendFlowers {display: none;}
+	#Genders {display: none;}
+	#Languages {display: none;}
+	#Gift {display: none;}
+	#ChatTranslation {display: none;}
+	#Chat {display: none;}
+
+	#JoinNow {
+		margin-top: 2px;
+		margin-left: -165px;
+	}
+
+	.footer {
+		width: 100%;
+		margin-top: 1370px;
+	}
+
+	#Email {
+		width: 365px;
+		height: 55px;
+		margin-left: -175px;
+	}
+
+	#Sing {
+		margin-left: 30px;
+		width: 300px;
+		float: none;
+	}
+
+	#f_menu {
+		width: 100%;
+		margin-left: -190px;
+		height: 40px;
+		text-align: none; 
+		font-size: 8px;
+		line-height: 20px;
+	}
+
+	#flags {
+		width: 100%;
+		height: 40px;
+		background-color: none;
+		top: 120px;
+		left: 0%;
+		margin-left: -1px;
+	}
+
+	#line {
+		width: 100%;
+		left: 0%;
+		margin-left: -5px;
+		top: 160px;
+	}
+
+	#p {
+		width: 100%;
+		margin-left: -190px;
+		margin-top: 150px;
+		font-size: 11px;
+		
+	}
+}
+
+/*
+@media (max-width:768px) /*правила для планшетов*/ /* {
+	.wrapper {
+	max-width:768px;
+	}
+
+
+
+	h3 {
+		font-size: 30px;
+		top: 105px;
+	}
+
+	#logo img {
+		height: auto;
+		width: 180px;
+		top: 70px;
+		margin-left: -80px;
+
+	}
+}
+
+*/
+

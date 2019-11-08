@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HomeOWD</title>
+	<link rel="stylesheet" href="index.css">
+	<script ENGINE="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<script>
+		$(document).ready(function() {
+		var element = $("#StickySocial");
+		var height_el = element.offset().top;
+		$("#StickySocial").css({
+		"width": element.outerWidth(),
+		"height": element.outerHeight()
+		});
+		$(window).scroll(function() {
+		if($(window).scrollTop() > height_el) {
+		element.addClass("fixed");
+		} else {
+		element.removeClass("fixed");
+		}
+		});
+		});
+	</script>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div id="people">
+				<img src="img/people.png"> 
+			</div>
+			
+			<div id="logo">
+				<img src="img/logo.png">
+			</div>
+
+			<div id="h3">
+				<h3> FIND SOMEONE TO CLICK WITH</h3>
+			</div>
+
+			<div id="menu">
+				<a href="">
+				<div id="text">MENU</div>
+				<img src="img/menusymbol.png">
+				</a>
+			</div>
+			
+			<div id="StickySocial">
+				<a href=""> <img src="img/sharinginterface.png"></a>
+				<a href=""> <img src="img/fb.png"> </a>
+				<a href=""> <img src="img/instagram.png"> </a>
+				<a href=""> <img src="img/twitter.png"> </a>
+			</div>
+
+			<div id="bg_get_started">
+				<img src="img/get_started.png">
+			</div>
+			
+			<div id="textGS"> <a href=""> Get Started <img src="img/arrow.png"> </a>
+			</div>
+			
+			<div id="OneWorld"> 
+				<img src="img/worldwide.png"> 
+				<div id="h4">
+					<div><h4> <a href=""> One World </a> </h4></div>
+			</div>
+			</div>
+
+			<div id="TwoHearts"> 
+				<img src="img/two-hearts.png"> 
+				<div id="h4">
+					<div><h4> <a href=""> Two Hearts </a> </h4></div>
+			</div>
+			</div>
+
+			<div id="OneSite"> 
+				<img src="img/icon.png"> 
+				<div id="h4">
+					<div><h4> <a href=""> One Site </a> </h4></div>
+			</div>
+			</div>
+
+		<div class="article">
+
+			<div id="welcome"> <img src="img/LogoHeart.png" alt=""> WELCOME!</div>
+
+			<div id="quote"> <h2>"Love is a promise, love is a souvenir, once given never forgotten, </br> never let it disappear."</h2> </div>
+
+			<div id="JL"> - John Lennon </div>
+
+			<div id="fotos_form">
+
+				<div id="photos1-4">
+					<div id="photo1"> <img src="img/photo1.png" alt=""> </div>
+					<div id="photo2"> <img src="img/photo2.png" alt=""> </div>
+					<div id="photo3"> <img src="img/photo3.png" alt=""> </div>
+					<div id="photo4"> <img src="img/photo4.png" alt=""> </div>
+				</div>
+
+				<div id="form">
+					<img src="img/bg_form.png" alt="">
+					<div id="bg_white"></div>
+					<div id="ITS">IT`S FREE TO JOIN</div>
+					<div id="FB"> <a href=""> f SIGN UP WITH FACEBOOK </a> </div>
+					<div id="LineOR">
+						<hr size="1px" width="218px" align="center">
+						<div id="OR"> OR </div>
+					</div>
+					
+					<div id="data">
+					<form action="" method="post" name="cont" id="form">
+
+					<input type="text" placeholder="Email" id="email" /> <br />
+					
+					<input type="text" placeholder="Username" id="Username" /> <br />
+
+					<input type="text" placeholder="Password" id="Password" /> <br />
+
+					<input type="text" placeholder="Confirm Password" id="Confirm_Password" /> <br />
+					
+					<input type="submit" value=" LET'S GO!" id="GO">
+
+					</form>
+					
+					</div>
+				</div>
+
+				<div id="photos5-8">
+					<div id="photo5"> <img src="img/photo5.png" alt=""> </div>
+					<div id="photo6"> <img src="img/photo6.png" alt=""> </div>
+					<div id="photo7"> <img src="img/photo7.png" alt=""> </div>
+					<div id="photo8"> <img src="img/photo8.png" alt=""> </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="aside">
+
+			<div id="bg_xo">
+				<img src="img/bg_xo.png" alt="">
+			</div>
+
+			<div id="Flower"> <a href="#"> <img src="img/Flower.png" alt=""> </a> </div>
+			
+			<div id="Heart"> <a href="#"> <img src="img/Heart.png" alt=""> </a> </div>
+
+			<div id="SendFlowers"> <a href="#"> <img src="img/SendFlowers.png" alt=""> </a> </div>
+
+			<div id="Genders"> <a href="#"> <img src="img/16 Genders.png" alt=""> </a> </div>
+
+			<div id="Languages"> <a href="#"> <img src="img/27Languages.png" alt=""> </a> </div>
+			
+			<div id="Gift"> <a href="#"> <img src="img/Gift.png" alt=""> </a> </div>
+			
+			<div id="ChatTranslation"> <a href="#"> <img src="img/ChatTranslation.png" alt=""> </a> </div>
+
+			<div id="Chat"> <a href="#"> <img src="img/Chat.png" alt=""> </a> </div>
+
+			<div id="JoinNow"> 
+				<img src="img/ellips.png" alt="">
+				<div id="h5">
+					<div><h5> <a href=""> JOIN NOW </br> <span>It’s free! </span> </a> </h5> </div>
+				</div>
+				
+				<div id="Button">
+					<img src="img/Button.png" alt="">
+					<div id="h6">
+						<div> <h6> <a href=""> GET STARTED </a> </h6> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+
+			<div id="Email">
+				<div id="Sing"> Sign up for our newsletter</div>
+				<input type="text" placeholder="Email Address" id="Address"/>
+				<input type="button" onclick="valid(document.getElementById('form'))" name="submit" value=" SUBSCRIBE" id="Subscribe">
+			
+			<div id="f_menu"> <h2> <a href="">ABOUT</a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="">CONTACT</a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="">FAQs</a>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="">BLOG</a>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="">ONLINE SAFETY</a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="">PRIVACY POLICY</a>   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="">TERMS OF USE</a> </h2></div>
+
+			<div id="flags">
+				<a href=""> <img src="img/Czech.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Greek.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/English.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Taiwanese.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Japanese.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Bosnian.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/German.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Italian.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Dutch.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Chinese.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Arabic.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/French.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Spanish.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Korean.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Portuguese.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Norwegian.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Russian.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Polish.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Swedish.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Romanian.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Danish.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Turkey.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Slovak.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Vietnamese.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Croatian.png" alt=""></a>
+				&nbsp
+				<a href=""> <img src="img/Thai.png" alt=""></a>
+			</div>
+
+			<div id="line"><hr size="1px"  align="center"></div>
+
+			<div id="p"> <p> © 2017 All World Dating Enterprise Company LLC. All rights reserved. We pledge never to share or sell your Email Address </p></div>
+			</div>
+		</div>	
+		
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	</div>
+</div>/
+</body>
+</html>
